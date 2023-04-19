@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: aliceblue;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    transform: skewY(-5deg);
+}
+
+.name .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img{
+    width: 175px;
+    height: 180px;
+}
+
+.name .contenido{
+    width: 50%;
+    top: 18%;
+    height: 50%;
+    position: absolute;
+    left:25%;
+}
+
+.name .contenido .parafo-1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.name .contenido .parafo-2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+.informacion {
+    width: 90%;
+    height: auto;
+    background: aqua;
+    margin: 5% auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.informacion .titulo{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px black dashed;
+}
+
+.informacion .t-nombre{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+}
+
+.informacion .nombre{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+.informacion .t-telefono{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+}
+.informacion .telefono{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+.informacion .t-correo{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+}
+.informacion .correo{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+.informacion .t-direccion{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+}
+.informacion .direccion{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
